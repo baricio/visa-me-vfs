@@ -1,0 +1,28 @@
+{
+  "name": "visa-me",
+  "version": "1.0.0",
+  "description": "Crawler to check vfs visa status",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vfs",
+    "visa",
+    "visto"
+  ],
+  "author": "Baricio",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "nightmare": "^3.0.2",
+    "puppeteer": "^1.20.0"
+  }
+}
