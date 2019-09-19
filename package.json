@@ -22,7 +22,10 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
+    "dotenv": "^8.1.0",
     "nightmare": "^3.0.2",
-    "puppeteer": "^1.20.0"
+    "puppeteer": "^1.20.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   }
 }
