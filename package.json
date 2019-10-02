@@ -24,6 +24,7 @@
   "dependencies": {
     "dotenv": "^8.1.0",
     "nightmare": "^3.0.2",
+    "promise-poller": "^1.9.1",
     "puppeteer": "^1.20.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
